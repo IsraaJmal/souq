@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Sign in</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/loginRegister.css" />
+    <script src="../js/login.js"></script>
+</head>
+
+<body>
+    <div id="loginContainer">
+        <div id="loginHeader" class="center">
+            <img src="../images/logo/souq-english.svg" alt="souq">
+        </div>
+        <div id="loginContent">
+            <form id="loginForm" class="form-group" action="../index.html">
+                <div id="displayLoginErrorMSG"><span id="test"></span></div>
+                <div class="center" id="signin">
+                    <label for="">Sign in</label>
+                </div>
+                <div>
+                    <label for="log_email">Email</label>
+                    <input type="email" id="log_email" class="form-control" placeholder="Enter your email">
+                </div>
+                <div>
+                    <label for="log_password">Password</label>
+                    <input type="password" id="log_password" class="form-control" minlength="6" placeholder="Enter your password">
+                </div>
+                <div>
+                    <input type="submit" id="loginSubmitBtn" class="form-control" value="sign in">
+                </div>
+                <div id="terms">
+                    <label>By signing in, you agree to Souq’s Terms & Conditions and Privacy Policy.</label>
+                </div>
+                <div style="background: linear-gradient(to bottom,rgba(0,0,0,.14),rgba(0,0,0,.03) 3px,transparent);">
+                    <br>
+                    <!-- <input type="button" id="registerSubmitBtn" class="form-control" value="Create new account"> -->
+                    <button id="registerAnchor" class="form-control"><a href="register.html">Create new account</a></button>
+                </div>
+                <br>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

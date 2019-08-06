@@ -1,0 +1,55 @@
+body{
+    /* font-family: Helvetica, Arial, sans-serif; */
+}
+#registerContainer, #loginContainer {
+    margin: 15px auto;
+}
+#registerContent, #loginContent
+{
+    width: 25%;
+    margin: 20px auto;
+    border-radius: 4px;
+    border: 1px #ddd solid;
+    /* background-color: #fff; */
+    
+}
+.center
+{
+    text-align: center;
+}
+.form-group div
+{
+    /* width: 100%; */
+    font-weight: 400;
+    font-size: 15px;
+    padding: 8px 15px;
+}
+.form-control
+{
+    width: 100%;
+    margin: 5px 0;
+    height: 30px;
+    padding: 5px;
+    box-sizing: border-box;
+    /* padding-left: 10px; */
+    border: 1px solid #a6a6a6;
+    border-top-color: #949494;
+    border-radius: 3px;
+}
+#createAccount, #signin
+{
+    font-size: 24px;
+}
+#terms{
+    font-weight: normal;
+    font-size: 13px; 
+    opacity: 0.8;
+}
+
+#registerAnchor:hover, #loginSubmitBtn:hover, #registerSubmitBtn:hover{
+    background-color: #e7e9ec;
+    border-color: #a2a6ac #979aa1 #82858a !important;
+}
+#registerAnchor a{
+    text-decoration: none;
+}

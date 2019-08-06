@@ -1,0 +1,1195 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>souq</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="images/logo/Souq_Logo.png">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+        crossorigin="anonymous">
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/font-awesome.min.css" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <div id="content">
+            <header id="header">
+                <div id="mainHeader" class="flex">
+                    <div id="logo" class="flex">
+                        <div id="togglerDiv">
+                            <a id="togglerAnchor"><i class="fas fa-align-justify"></i></a>
+                        </div>
+                        <div id="logoDiv">
+                            <a href="https://uae.souq.com/ae-en/">
+                                <img src="images/logo/souq-english.svg" alt="souq">
+                            </a>
+                        </div>
+                    </div>
+                    <div id="searchDiv">
+                        <input type="search" id="searchInput" class="form-control" placeholder="what you are looking for?">
+                        <button id="searchBtn"><i class="fas fa-search"></i></button>
+                    </div>
+                    <div id="actions" class="flex">
+                        <div id="loginSetting">
+                            <a href="pages/login.html" id="loginLink"><i class="fa fa-sign-in"> Login</i></a>
+                            <a href="index.html" id="logoutLink"><i class="fa fa-sign-out"> Logout</i></a>
+                        </div>
+                        <div id="cartDiv">
+                            <a href="#">
+                                <!-- <i class="fas fa-cart-plus"></i> -->
+                                <!-- <i class="fa fa-shopping-cart"></i> -->
+                                &#128722;
+                                <span id="charNumber"></span>
+                                <label>Cart</label>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div id="navbar">
+                <div id="nav-container">
+                    <ul id="categoriesNavMenu">
+                        <li class="dropdown"><a href="#categories">Categories</a>
+                            <div class="dropdown-content">
+                                <a href="#">Link 1</a>
+                                <a href="#">Link 2</a>
+                                <a href="#">Link 3</a>
+                                <a href="#">Link 3</a>
+                                <a href="#">Link 3</a>
+                            </div>
+                        </li>
+
+                        <li class="dropdown"><a href="#furnitures">Furnitures</a>
+                            <div class="dropdown-content">
+                                <a href="#">Link 1</a>
+                                <a href="#">Link 2</a>
+                                <a href="#">Link 3</a>
+                                <a href="#">Link 3</a>
+                                <a href="#">Link 3</a>
+                            </div>
+                        </li>
+                        <li class="dropdown"><a href="#baby">Baby</a>
+                            <div class="dropdown-content">
+                                <a href="#">Link 1</a>
+                                <a href="#">Link 3</a>
+                                <a href="#">Link 2</a>
+                                <a href="#">Link 3</a>
+                            </div>
+                        </li>
+                        <li class="dropdown"><a href="#electronics">Electronics</a>
+                            <div class="dropdown-content">
+                                <a href="#">Link 1</a>
+                                <a href="#">Link 2</a>
+                                <a href="#">Link 3</a>
+                            </div>
+                        </li>
+                        <li class="dropdown"><a href="#perfum">Perfum</a>
+                            <div class="dropdown-content">
+                                <a href="#">Link 1</a>
+                                <a href="#">Link 3</a>
+                                <a href="#">Link 2</a>
+                                <a href="#">Link 3</a>
+                            </div>
+                        </li>
+                        <li class="dropdown"><a href="#kitchen">Kitchen</a>
+                            <div class="dropdown-content">
+                                <a href="#">Link 1</a>
+                                <a href="#">Link 2</a>
+                                <a href="#">Link 3</a>
+                                <a href="#">Link 3</a>
+                                <a href="#">Link 3</a>
+                                <a href="#">Link 3</a>
+                            </div>
+                        </li>
+                        <li class="dropdown"><a href="#">Cupidatat</a>
+                            <div class="dropdown-content">
+                                <a href="#">Link 1</a>
+                                <a href="#">Link 2</a>
+                                <a href="#">Link 3</a>
+                            </div>
+                        </li>
+                        <li class="dropdown"><a href="#">Cupidatat</a>
+                            <div class="dropdown-content">
+                                <a href="#">Link 1</a>
+                                <a href="#">Link 2</a>
+                                <a href="#">Link 3</a>
+                                <a href="#">Link 3</a>
+                                <a href="#">Link 3</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <section>
+                <div style="background-color: #E8EBEE; max-width: 1200px; height: 30px; position: relative; margin: 1% auto; top: 51px;">
+                    <br>
+                </div>
+                <!-- section 1  -->
+                <div class="container" id="categories">
+                    <div class="productsForthStyle productsSlider">
+                        <div class="upProducts">
+                            <div class="slider">
+                                <div class="image">
+                                    <img>
+                                </div>
+                                <!-- <p>I'm a Product</p>
+                               <h4>$190</h4> -->
+                            </div>
+                            <div class="upRightProduct product">
+                                <div class="image">
+                                    <button class="viewProductDetailsBtn">Quick view</button>
+                                    <img>
+                                </div>
+                                <p></p>
+                                <h4></h4>
+                                <span class="productId"></span>
+                                <div class="starDiv">
+                                    <span class="starItem"><i class="fa fa-star"></i></span>
+                                    <span class="starItem"><i class="fa fa-star"></i></span>
+                                    <span class="starItem"><i class="fa fa-star"></i></span>
+                                    <span class="starItem"><i class="fa fa-star"></i></span>
+                                    <span class="starItem"><i class="fa fa-star"></i></span>
+                                </div>
+                                <div>
+                                    <button class="addToCartBtn">ADD TO CART</button>
+                                    <button class="checkoutBtn">PROCEED TO CHECKOUT</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="downProducts">
+                            <div class="product">
+                                <div class="image">
+                                    <button class="viewProductDetailsBtn">Quick view</button>
+                                    <img>
+                                </div>
+                                <p></p>
+                                <h4></h4>
+                                <span class="productId"></span>
+                                <div class="starDiv">
+                                    <span class="starItem"><i class="fa fa-star"></i></span>
+                                    <span class="starItem"><i class="fa fa-star"></i></span>
+                                    <span class="starItem"><i class="fa fa-star"></i></span>
+                                    <span class="starItem"><i class="fa fa-star"></i></span>
+                                    <span class="starItem"><i class="fa fa-star"></i></span>
+                                </div>
+                                <div>
+                                    <button class="addToCartBtn">ADD TO CART</button>
+                                    <button class="checkoutBtn">PROCEED TO CHECKOUT</button>
+                                </div>
+                            </div>
+                            <div class="product">
+                                <div class="image">
+                                    <button class="viewProductDetailsBtn">Quick view</button>
+                                    <img>
+                                </div>
+                                <p></p>
+                                <h4></h4>
+                                <span class="productId"></span>
+                                <div class="starDiv">
+                                    <span class="starItem"><i class="fa fa-star"></i></span>
+                                    <span class="starItem"><i class="fa fa-star"></i></span>
+                                    <span class="starItem"><i class="fa fa-star"></i></span>
+                                    <span class="starItem"><i class="fa fa-star"></i></span>
+                                    <span class="starItem"><i class="fa fa-star"></i></span>
+                                </div>
+                                <div>
+                                    <button class="addToCartBtn">ADD TO CART</button>
+                                    <button class="checkoutBtn">PROCEED TO CHECKOUT</button>
+                                </div>
+                            </div>
+                            <div class="product">
+                                <div class="image">
+                                    <button class="viewProductDetailsBtn">Quick view</button>
+                                    <img>
+                                </div>
+                                <p></p>
+                                <h4></h4>
+                                <span class="productId"></span>
+                                <div class="starDiv">
+                                    <span class="starItem"><i class="fa fa-star"></i></span>
+                                    <span class="starItem"><i class="fa fa-star"></i></span>
+                                    <span class="starItem"><i class="fa fa-star"></i></span>
+                                    <span class="starItem"><i class="fa fa-star"></i></span>
+                                    <span class="starItem"><i class="fa fa-star"></i></span>
+                                </div>
+                                <div>
+                                    <button class="addToCartBtn">ADD TO CART</button>
+                                    <button class="checkoutBtn">PROCEED TO CHECKOUT</button>
+                                </div>
+                            </div>
+                            <div class="product">
+                                <div class="image">
+                                    <button class="viewProductDetailsBtn">Quick view</button>
+                                    <img>
+                                </div>
+                                <p></p>
+                                <h4></h4>
+                                <span class="productId"></span>
+                                <div class="starDiv">
+                                    <span class="starItem"><i class="fa fa-star"></i></span>
+                                    <span class="starItem"><i class="fa fa-star"></i></span>
+                                    <span class="starItem"><i class="fa fa-star"></i></span>
+                                    <span class="starItem"><i class="fa fa-star"></i></span>
+                                    <span class="starItem"><i class="fa fa-star"></i></span>
+                                </div>
+                                <div>
+                                    <button class="addToCartBtn">ADD TO CART</button>
+                                    <button class="checkoutBtn">PROCEED TO CHECKOUT</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="background-color: #E8EBEE; max-width: 1200px; height: 30px; position: relative; margin: 1% auto;">
+                    <br>
+                </div>
+                <!-- section 2 furnture -->
+                <div class="clearfix"></div>
+                <div class="container" id="furnitures">
+                    <div class="products furniture">
+                        <div class="product">
+                            <div class="item">
+                                <button class="viewProductDetailsBtn">Quick view</button>
+                                <img>
+                            </div>
+                            <p></p>
+                            <h4></h4>
+                            <span class="productId"></span>
+                            <div class="starDiv">
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                            </div>
+                            <div>
+                                <button class="addToCartBtn">ADD TO CART</button>
+                                <button class="checkoutBtn">PROCEED TO CHECKOUT</button>
+                            </div>
+
+                            <!-- &bigstar; -->
+                            <!-- <div id="starDiv">
+                                <ul id="starList" style="list-style-type: none; display: flex;">
+                                    <li class="starItem">
+                                        <span class="fa fa-star"></span>
+                                    </li>
+                                    <li class="starItem">
+                                        <span class="fa fa-star"></span>
+                                    </li>
+                                    <li class="starItem">
+                                        <span class="fa fa-star"></span>
+                                    </li>
+                                    <li class="starItem">
+                                        <span class="fa fa-star"></span>
+                                    </li>
+                                    <li class="starItem">
+                                        <span class="fa fa-star"></span>
+                                    </li>
+                                </ul>
+                            </div> -->
+                            <!-- <div class="outerStarDiv">
+                                <div class="innerStarDiv"></div>
+                            </div> -->
+                        </div>
+                        <div class="product">
+                            <div class="item">
+                                <button class="viewProductDetailsBtn">Quick view</button>
+                                <img>
+                            </div>
+                            <p></p>
+                            <h4></h4>
+                            <span class="productId"></span>
+                            <div class="starDiv">
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                            </div>
+                            <div>
+                                <button class="addToCartBtn">ADD TO CART</button>
+                                <button class="checkoutBtn">PROCEED TO CHECKOUT</button>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <div class="item">
+                                <button class="viewProductDetailsBtn">Quick view</button>
+                                <img>
+                            </div>
+                            <p></p>
+                            <h4></h4>
+                            <span class="productId"></span>
+                            <div class="starDiv">
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                            </div>
+                            <div>
+                                <button class="addToCartBtn">ADD TO CART</button>
+                                <button class="checkoutBtn">PROCEED TO CHECKOUT</button>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <div class="item">
+                                <button class="viewProductDetailsBtn">Quick view</button>
+                                <img>
+                            </div>
+                            <p></p>
+                            <h4></h4>
+                            <span class="productId"></span>
+                            <div class="starDiv">
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                            </div>
+                            <div>
+                                <button class="addToCartBtn">ADD TO CART</button>
+                                <button class="checkoutBtn">PROCEED TO CHECKOUT</button>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <div class="item">
+                                <button class="viewProductDetailsBtn">Quick view</button>
+                                <img>
+                            </div>
+                            <p></p>
+                            <h4></h4>
+                            <span class="productId"></span>
+                            <div class="starDiv">
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                            </div>
+                            <div>
+                                <button class="addToCartBtn">ADD TO CART</button>
+                                <button class="checkoutBtn">PROCEED TO CHECKOUT</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="background-color: #E8EBEE; max-width: 1200px; height: 30px; position: relative; margin: 1% auto;">
+                    <br>
+                </div>
+                <!-- section 3 -->
+                <div class="clearfix"></div>
+                <div class="container" id="baby">
+                    <div class="productsThirdStyle">
+                        <div class="specialProduct">
+                            <div class="item">
+                                <!-- <button class="viewProductDetailsBtn">Quick view</button> -->
+                                <img src="images/baby/baby toys.jpg" style="height: 740px;">
+                            </div>
+                            <!-- <p></p>
+                            <h4></h4>
+                            <span class="productId"></span>
+                            <div class="starDiv">
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                            </div>
+                            <div>
+                                <button class="addToCartBtn">ADD TO CART</button>
+                                <button class="checkoutBtn">PROCEED TO CHECKOUT</button>
+                            </div> -->
+                        </div>
+
+                        <div class="rightProducts">
+                            <div class="upProducts">
+                                <div class="upLeftProduct product">
+                                    <div class="item">
+                                        <button class="viewProductDetailsBtn">Quick view</button>
+                                        <img>
+                                    </div>
+                                    <p></p>
+                                    <h4></h4>
+                                    <span class="productId"></span>
+                                    <div class="starDiv">
+                                        <span class="starItem"><i class="fa fa-star"></i></span>
+                                        <span class="starItem"><i class="fa fa-star"></i></span>
+                                        <span class="starItem"><i class="fa fa-star"></i></span>
+                                        <span class="starItem"><i class="fa fa-star"></i></span>
+                                        <span class="starItem"><i class="fa fa-star"></i></span>
+                                    </div>
+                                    <div>
+                                        <button class="addToCartBtn">ADD TO CART</button>
+                                        <button class="checkoutBtn">PROCEED TO CHECKOUT</button>
+                                    </div>
+                                </div>
+
+                                <div class="upRightProduct product">
+                                    <div class="item">
+                                        <button class="viewProductDetailsBtn">Quick view</button>
+                                        <img>
+                                    </div>
+                                    <p></p>
+                                    <h4></h4>
+                                    <span class="productId"></span>
+                                    <div class="starDiv">
+                                        <span class="starItem"><i class="fa fa-star"></i></span>
+                                        <span class="starItem"><i class="fa fa-star"></i></span>
+                                        <span class="starItem"><i class="fa fa-star"></i></span>
+                                        <span class="starItem"><i class="fa fa-star"></i></span>
+                                        <span class="starItem"><i class="fa fa-star"></i></span>
+                                    </div>
+                                    <div>
+                                        <button class="addToCartBtn">ADD TO CART</button>
+                                        <button class="checkoutBtn">PROCEED TO CHECKOUT</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="downProducts">
+                                <div class="downLeftProduct product">
+                                    <div class="item">
+                                        <button class="viewProductDetailsBtn">Quick view</button>
+                                        <img>
+                                    </div>
+                                    <p></p>
+                                    <h4></h4>
+                                    <span class="productId"></span>
+                                    <div class="starDiv">
+                                        <span class="starItem"><i class="fa fa-star"></i></span>
+                                        <span class="starItem"><i class="fa fa-star"></i></span>
+                                        <span class="starItem"><i class="fa fa-star"></i></span>
+                                        <span class="starItem"><i class="fa fa-star"></i></span>
+                                        <span class="starItem"><i class="fa fa-star"></i></span>
+                                    </div>
+                                    <div>
+                                        <button class="addToCartBtn">ADD TO CART</button>
+                                        <button class="checkoutBtn">PROCEED TO CHECKOUT</button>
+                                    </div>
+                                </div>
+
+                                <div class="downRightProduct product">
+                                    <div class="item">
+                                        <button class="viewProductDetailsBtn">Quick view</button>
+                                        <img>
+                                    </div>
+                                    <p></p>
+                                    <h4></h4>
+                                    <span class="productId"></span>
+                                    <div class="starDiv">
+                                        <span class="starItem"><i class="fa fa-star"></i></span>
+                                        <span class="starItem"><i class="fa fa-star"></i></span>
+                                        <span class="starItem"><i class="fa fa-star"></i></span>
+                                        <span class="starItem"><i class="fa fa-star"></i></span>
+                                        <span class="starItem"><i class="fa fa-star"></i></span>
+                                    </div>
+                                    <div>
+                                        <button class="addToCartBtn">ADD TO CART</button>
+                                        <button class="checkoutBtn">PROCEED TO CHECKOUT</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="background-color: #E8EBEE; max-width: 1200px; height: 30px; position: relative; margin: 1% auto;">
+                    <br>
+                </div>
+
+                <!-- section 4 -->
+                <div class="clearfix"></div>
+                <div class="container" id="electronics">
+                    <div class="electronics products">
+                        <div class="product">
+                            <div class="item">
+                                <button class="viewProductDetailsBtn">Quick view</button>
+                                <img>
+                            </div>
+                            <p></p>
+                            <h4></h4>
+                            <span class="productId"></span>
+                            <div class="starDiv">
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                            </div>
+                            <div>
+                                <button class="addToCartBtn">ADD TO CART</button>
+                                <button class="checkoutBtn">PROCEED TO CHECKOUT</button>
+                            </div>
+
+                            <!-- &bigstar; -->
+                            <!-- <div id="starDiv">
+                                    <ul id="starList" style="list-style-type: none; display: flex;">
+                                        <li class="starItem">
+                                            <span class="fa fa-star"></span>
+                                        </li>
+                                        <li class="starItem">
+                                            <span class="fa fa-star"></span>
+                                        </li>
+                                        <li class="starItem">
+                                            <span class="fa fa-star"></span>
+                                        </li>
+                                        <li class="starItem">
+                                            <span class="fa fa-star"></span>
+                                        </li>
+                                        <li class="starItem">
+                                            <span class="fa fa-star"></span>
+                                        </li>
+                                    </ul>
+                                </div> -->
+                            <!-- <div class="outerStarDiv">
+                                    <div class="innerStarDiv"></div>
+                                </div> -->
+                        </div>
+                        <div class="product">
+                            <div class="item">
+                                <button class="viewProductDetailsBtn">Quick view</button>
+                                <img>
+                            </div>
+                            <p></p>
+                            <h4></h4>
+                            <span class="productId"></span>
+                            <div class="starDiv">
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                            </div>
+                            <div>
+                                <button class="addToCartBtn">ADD TO CART</button>
+                                <button class="checkoutBtn">PROCEED TO CHECKOUT</button>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <div class="item">
+                                <button class="viewProductDetailsBtn">Quick view</button>
+                                <img>
+                            </div>
+                            <p></p>
+                            <h4></h4>
+                            <span class="productId"></span>
+                            <div class="starDiv">
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                            </div>
+                            <div>
+                                <button class="addToCartBtn">ADD TO CART</button>
+                                <button class="checkoutBtn">PROCEED TO CHECKOUT</button>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <div class="item">
+                                <button class="viewProductDetailsBtn">Quick view</button>
+                                <img>
+                            </div>
+                            <p></p>
+                            <h4></h4>
+                            <span class="productId"></span>
+                            <div class="starDiv">
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                            </div>
+                            <div>
+                                <button class="addToCartBtn">ADD TO CART</button>
+                                <button class="checkoutBtn">PROCEED TO CHECKOUT</button>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <div class="item">
+                                <button class="viewProductDetailsBtn">Quick view</button>
+                                <img>
+                            </div>
+                            <p></p>
+                            <h4></h4>
+                            <span class="productId"></span>
+                            <div class="starDiv">
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                            </div>
+                            <div>
+                                <button class="addToCartBtn">ADD TO CART</button>
+                                <button class="checkoutBtn">PROCEED TO CHECKOUT</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="background-color: #E8EBEE; max-width: 1200px; height: 30px; position: relative; margin: 1% auto;">
+                    <br>
+                </div>
+
+                <!-- section 5 -->
+                <div class="clearfix"></div>
+                <div class="container" id="perfum">
+                    <div class="productsThirdStyle perfum">
+                        <div class="specialProduct">
+                            <div class="item">
+                                <!-- <button class="viewProductDetailsBtn">Quick view</button> -->
+                                <img src="images/perfum/budjet perfumes.jpg">
+                            </div>
+                            <!-- <p></p>
+                            <h4></h4>
+                            <span class="productId"></span>
+                            <div class="starDiv">
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                            </div>
+                            <div>
+                                <button class="addToCartBtn">ADD TO CART</button>
+                                <button class="checkoutBtn">PROCEED TO CHECKOUT</button>
+                            </div> -->
+                        </div>
+
+                        <div class="rightProducts">
+                            <div class="upProducts">
+                                <div class="upLeftProduct product">
+                                    <div class="item">
+                                        <button class="viewProductDetailsBtn">Quick view</button>
+                                        <img>
+                                    </div>
+                                    <p></p>
+                                    <h4></h4>
+                                    <span class="productId"></span>
+                                    <div class="starDiv">
+                                        <span class="starItem"><i class="fa fa-star"></i></span>
+                                        <span class="starItem"><i class="fa fa-star"></i></span>
+                                        <span class="starItem"><i class="fa fa-star"></i></span>
+                                        <span class="starItem"><i class="fa fa-star"></i></span>
+                                        <span class="starItem"><i class="fa fa-star"></i></span>
+                                    </div>
+                                    <div>
+                                        <button class="addToCartBtn">ADD TO CART</button>
+                                        <button class="checkoutBtn">PROCEED TO CHECKOUT</button>
+                                    </div>
+                                </div>
+
+                                <div class="upRightProduct product">
+                                    <div class="item">
+                                        <button class="viewProductDetailsBtn">Quick view</button>
+                                        <img>
+                                    </div>
+                                    <p></p>
+                                    <h4></h4>
+                                    <span class="productId"></span>
+                                    <div class="starDiv">
+                                        <span class="starItem"><i class="fa fa-star"></i></span>
+                                        <span class="starItem"><i class="fa fa-star"></i></span>
+                                        <span class="starItem"><i class="fa fa-star"></i></span>
+                                        <span class="starItem"><i class="fa fa-star"></i></span>
+                                        <span class="starItem"><i class="fa fa-star"></i></span>
+                                    </div>
+                                    <div>
+                                        <button class="addToCartBtn">ADD TO CART</button>
+                                        <button class="checkoutBtn">PROCEED TO CHECKOUT</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="downProducts">
+                                <div class="downLeftProduct product">
+                                    <div class="item">
+                                        <button class="viewProductDetailsBtn">Quick view</button>
+                                        <img>
+                                    </div>
+                                    <p></p>
+                                    <h4></h4>
+                                    <span class="productId"></span>
+                                    <div class="starDiv">
+                                        <span class="starItem"><i class="fa fa-star"></i></span>
+                                        <span class="starItem"><i class="fa fa-star"></i></span>
+                                        <span class="starItem"><i class="fa fa-star"></i></span>
+                                        <span class="starItem"><i class="fa fa-star"></i></span>
+                                        <span class="starItem"><i class="fa fa-star"></i></span>
+                                    </div>
+                                    <div>
+                                        <button class="addToCartBtn">ADD TO CART</button>
+                                        <button class="checkoutBtn">PROCEED TO CHECKOUT</button>
+                                    </div>
+                                </div>
+
+                                <div class="downRightProduct product">
+                                    <div class="item">
+                                        <button class="viewProductDetailsBtn">Quick view</button>
+                                        <img>
+                                    </div>
+                                    <p></p>
+                                    <h4></h4>
+                                    <span class="productId"></span>
+                                    <div class="starDiv">
+                                        <span class="starItem"><i class="fa fa-star"></i></span>
+                                        <span class="starItem"><i class="fa fa-star"></i></span>
+                                        <span class="starItem"><i class="fa fa-star"></i></span>
+                                        <span class="starItem"><i class="fa fa-star"></i></span>
+                                        <span class="starItem"><i class="fa fa-star"></i></span>
+                                    </div>
+                                    <div>
+                                        <button class="addToCartBtn">ADD TO CART</button>
+                                        <button class="checkoutBtn">PROCEED TO CHECKOUT</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div style="background-color: #E8EBEE; max-width: 1200px; height: 30px; position: relative; margin: 1% auto;">
+                    <br>
+                </div>
+
+                <!-- section 6 -->
+                <div class="clearfix"></div>
+                <div class="container" id="kitchen">
+                    <div class="kitchen products">
+                        <div class="product">
+                            <div class="item">
+                                <button class="viewProductDetailsBtn">Quick view</button>
+                                <img>
+                            </div>
+                            <p></p>
+                            <h4></h4>
+                            <span class="productId"></span>
+                            <div class="starDiv">
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                            </div>
+                            <div>
+                                <button class="addToCartBtn">ADD TO CART</button>
+                                <button class="checkoutBtn">PROCEED TO CHECKOUT</button>
+                            </div>
+
+                            <!-- &bigstar; -->
+                            <!-- <div id="starDiv">
+                                    <ul id="starList" style="list-style-type: none; display: flex;">
+                                        <li class="starItem">
+                                            <span class="fa fa-star"></span>
+                                        </li>
+                                        <li class="starItem">
+                                            <span class="fa fa-star"></span>
+                                        </li>
+                                        <li class="starItem">
+                                            <span class="fa fa-star"></span>
+                                        </li>
+                                        <li class="starItem">
+                                            <span class="fa fa-star"></span>
+                                        </li>
+                                        <li class="starItem">
+                                            <span class="fa fa-star"></span>
+                                        </li>
+                                    </ul>
+                                </div> -->
+                            <!-- <div class="outerStarDiv">
+                                    <div class="innerStarDiv"></div>
+                                </div> -->
+                        </div>
+                        <div class="product">
+                            <div class="item">
+                                <button class="viewProductDetailsBtn">Quick view</button>
+                                <img>
+                            </div>
+                            <p></p>
+                            <h4></h4>
+                            <span class="productId"></span>
+                            <div class="starDiv">
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                            </div>
+                            <div>
+                                <button class="addToCartBtn">ADD TO CART</button>
+                                <button class="checkoutBtn">PROCEED TO CHECKOUT</button>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <div class="item">
+                                <button class="viewProductDetailsBtn">Quick view</button>
+                                <img>
+                            </div>
+                            <p></p>
+                            <h4></h4>
+                            <span class="productId"></span>
+                            <div class="starDiv">
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                            </div>
+                            <div>
+                                <button class="addToCartBtn">ADD TO CART</button>
+                                <button class="checkoutBtn">PROCEED TO CHECKOUT</button>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <div class="item">
+                                <button class="viewProductDetailsBtn">Quick view</button>
+                                <img>
+                            </div>
+                            <p></p>
+                            <h4></h4>
+                            <span class="productId"></span>
+                            <div class="starDiv">
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                            </div>
+                            <div>
+                                <button class="addToCartBtn">ADD TO CART</button>
+                                <button class="checkoutBtn">PROCEED TO CHECKOUT</button>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <div class="item">
+                                <button class="viewProductDetailsBtn">Quick view</button>
+                                <img>
+                            </div>
+                            <p></p>
+                            <h4></h4>
+                            <span class="productId"></span>
+                            <div class="starDiv">
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                                <span class="starItem"><i class="fa fa-star"></i></span>
+                            </div>
+                            <div>
+                                <button class="addToCartBtn">ADD TO CART</button>
+                                <button class="checkoutBtn">PROCEED TO CHECKOUT</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer></footer>
+        </div>
+        <aside id="leftSideMenu">
+            <div id="profile">
+                <div id="profileImg">
+                    <img src="images/profile/profile2.png" alt="profile">
+                </div>
+                <div id="info">
+                    <h3>user</h3>
+                    <p>user@example.com</p>
+                    <button id="viewProfileBtn">view profile</button>
+                </div>
+            </div>
+            <ul>
+                <a href="#header">
+                    <li>Home</li>
+                </a>
+                <a href="#categories">
+                    <li>Categories</li>
+                </a>
+                <a href="#baby">
+                    <li>Baby</li>
+                </a>
+                <a href="#electronics">
+                    <li>Electronics</li>
+                </a>
+                <a href="#perfum">
+                    <li>Perfum</li>
+                </a>
+                <a href="#kitchen">
+                    <li>Kitchen</li>
+                </a>
+                <a href="#">
+                    <li>Cupidatat eu cupidatat nostrud.</li>
+                </a>
+                <a href="#">
+                    <li>Cupidatat eu cupidatat nostrud.</li>
+                </a>
+                <a href="#">
+                    <li>Cupidatat eu cupidatat nostrud.</li>
+                </a>
+                <a href="#">
+                    <li>Cupidatat eu cupidatat nostrud.</li>
+                </a>
+                <a href="#">
+                    <li>Cupidatat eu cupidatat nostrud.</li>
+                </a>
+                <a href="#">
+                    <li>Cupidatat eu cupidatat nostrud.</li>
+                </a>
+                <a href="#">
+                    <li>Cupidatat eu cupidatat nostrud.</li>
+                </a>
+                <a href="#">
+                    <li>Cupidatat eu cupidatat nostrud.</li>
+                </a>
+                <a href="#">
+                    <li>Cupidatat eu cupidatat nostrud.</li>
+                </a>
+                <a href="#">
+                    <li>Cupidatat eu cupidatat nostrud.</li>
+                </a>
+                <a href="#">
+                    <li>Cupidatat eu cupidatat nostrud.</li>
+                </a>
+                <a href="#">
+                    <li>Cupidatat eu cupidatat nostrud.</li>
+                </a>
+            </ul>
+        </aside>
+        <div id="profilePopupDiv">
+            <table>
+                <form>
+                    <caption style="margin-bottom: 20px">
+                        <h3>Your Profile Informaiton</h3>
+                    </caption>
+                    <tbody>
+                        <tr>
+                            <td colspan="2"><span id="displayProfileErrorMsg"></span></td>
+                        </tr>
+                        <tr>
+                            <td><label for="profilePopupName">Name</label></td>
+                            <td><input type="text" id="profilePopupName" class="form-control"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="profilePopupEmail">Email</label></td>
+                            <td><input type="email" id="profilePopupEmail" class="form-control" disabled></td>
+                        </tr>
+                        <tr>
+                            <td><label for="profilePopupPassword">Password</label></td>
+                            <td><input type="password" id="profilePopupPassword" class="form-control"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="profilePopupConfirmPassword">Confirm password</label></td>
+                            <td><input type="password" id="profilePopupConfirmPassword" class="form-control"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <hr style="margin: 20px 0 10px 0; opacity: 0.5;">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td style="display: flex;">
+                                <button id="profilePopupSaveBtn" class="primary">save</button>
+                                <button id="profilePopupCanselBtn">cansel</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </form>
+            </table>
+        </div>
+        <div id="productDetailsBox" class="productDetailsBox">
+            <h2></h2>
+            <div class="star">
+
+            </div>
+            <div class="boxContent">
+                <div class="imgBox">
+                    <img src="" style="width: 200px ;object-fit: contain">
+                </div>
+                <div class="details">
+                    <h3 id="price"></h3>
+                    <hr class="hr">
+                    <h3>Product Information</h3>
+                    <div id="ProductInformation">
+                        <p>Tempor aliqua ad dolor reprehenderit sint nisi laborum est nostrud cillum fugiat nisi
+                            ullamco eu. Consequat commodo in sit Lorem nisi dolor laboris ea sit nulla. Incididunt ea
+                            cillum occaecat quis ullamco dolor. Culpa Lorem qui cupidatat occaecat incididunt nulla
+                            ipsum.
+                        </p>
+                        <br>
+                        <p>
+                            Cillum proident et incididunt mollit consequat eiusmod reprehenderit consectetur. Lorem cillum
+                            aliqua anim deserunt enim eu cillum aliquip tempor pariatur aute cillum. Minim officia
+                            pariatur consequat nulla proident sunt.
+                        </p>
+                        <br>
+                        <p>
+                            Cillum proident et incididunt mollit consequat eiusmod reprehenderit consectetur. Lorem cillum
+                            aliqua anim deserunt enim eu cillum aliquip tempor pariatur aute cillum. Minim officia
+                            pariatur consequat nulla proident sunt.
+                        </p>
+                    </div>
+                    <hr class="hr">
+                    <div></div>
+                    <span id="close">
+                        <i class="fas fa-times-circle blue"></i>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div id="exitDiv"></div>
+        <div id="exitDiv2"></div>
+    </div>
+
+    <script>
+        // window.onclose = function () {
+        //     // if (document.closed) {
+        //     localStorage.removeItem('email');
+        //     // }
+        // }
+        // document.close(function () {
+        //     localStorage.removeItem('email');
+        // });
+        window.onclose = function () {
+            localStorage.removeItem('email');
+        }
+    </script>
+</body>
+
+</html>
+
+
+
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+/* Fixed sidenav, full height */
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a, .dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+/* On mouse-over */
+.sidenav a:hover, .dropdown-btn:hover {
+  color: #f1f1f1;
+}
+
+/* Main content */
+.main {
+  margin-left: 200px; /* Same as the width of the sidenav */
+  font-size: 20px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+/* Add an active class to the active dropdown button */
+.active {
+  background-color: green;
+  color: white;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+  display: none;
+  background-color: #262626;
+  padding-left: 8px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+
+/* Some media queries for responsiveness */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+
+<div class="sidenav">
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#clients">Clients</a>
+  <a href="#contact">Contact</a>
+  <button class="dropdown-btn">Dropdown 
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+  <a href="#contact">Search</a>
+</div>
+
+<div class="main">
+  <h2>Sidebar Dropdown</h2>
+  <p>Click on the dropdown button to open the dropdown menu inside the side navigation.</p>
+  <p>This sidebar is of full height (100%) and always shown.</p>
+  <p>Some random text..</p>
+</div>
+
+<script>
+/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+  this.classList.toggle("active");
+  var dropdownContent = this.nextElementSibling;
+  if (dropdownContent.style.display === "block") {
+  dropdownContent.style.display = "none";
+  } else {
+  dropdownContent.style.display = "block";
+  }
+  });
+}
+</script>
+<script src="/__/firebase/6.3.4/firebase-app.js"></script>
+
+
+</body>
+</html>  -->

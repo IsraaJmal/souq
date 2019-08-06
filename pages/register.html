@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Register</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/loginRegister.css" />
+    <script src="../js/register.js"></script>
+</head>
+
+<body>
+    <div id="registerContainer">
+        <div id="registerHeader" class="center">
+            <img src="../images/logo/souq-english.svg" alt="souq">
+        </div>
+        <div id="registerContent">
+            <form id="registerForm" class="form-group">
+                <div id="displayErrorMSG"><span id="test"></span></div>
+                <div class="center" id="createAccount">
+                    <label for="">Create account</label>
+                </div>
+                <div>
+                    <label for="reg_name">Your name</label>
+                    <input type="text" id="reg_name" class="form-control" minlength="3" placeholder="Enter your name">
+                </div>
+                <div>
+                    <label for="reg_email">Email</label>
+                    <input type="email" id="reg_email" class="form-control" placeholder="Enter your email">
+                </div>
+                <div>
+                    <label for="reg_password">Password</label>
+                    <input type="password" id="reg_password" class="form-control" minlength="6" placeholder="Enter your password">
+                </div>
+                <div>
+                    <label for="reg_confirmPassword">Confirm password</label>
+                    <input type="password" id="reg_confirmPassword" class="form-control" minlength="6" placeholder="Re-enter your password">
+                </div>
+                <div>
+                    <input type="button" id="registerSubmitBtn" class="form-control" value="Register">
+                </div>
+                <div id="terms">
+                    <label>By creating an account, you agree to Souq’s Terms & Conditions and Privacy Policy.</label>
+                </div>
+                <div style="background: linear-gradient(to bottom,rgba(0,0,0,.14),rgba(0,0,0,.03) 3px,transparent);">
+                    <br>
+                    <label>Already have an account? <a href="login.html">Sign In</a></label>
+                </div>
+                <br>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
